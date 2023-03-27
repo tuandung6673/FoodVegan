@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  .content-banner {
+    width: 100%;
+    background: #e0d6d6;
+    .abc {
+      padding: 15px 0;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 15px;
+      width: 60%;
+      margin: 0 auto;
+      > * {
+        background: #d4b9b9;
+        padding: 30px 10px;
+      }
+      .banner-left {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+      }
+    }
+  }
+  .main-content {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
